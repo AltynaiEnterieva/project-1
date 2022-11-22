@@ -1,0 +1,30 @@
+/* ! 1 section */
+/* .block__one {} */
+
+.block__one__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.block__one__card {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.647);
+  box-shadow: 5px 5px 13px black;
+  border-radius: 15px;
+}
+
+.block__one__title h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.block__one__title p {
+  font-size: 50px;
+}
